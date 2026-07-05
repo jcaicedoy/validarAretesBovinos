@@ -58,7 +58,7 @@ def test_limpiar_codigo():
 
 
 def test_codigo_valido():
-    valido, mensaje = validar_codigo("EC123456789")
+    valido, mensaje = validar_codigo("EB123456789")
     assert valido is True
     assert mensaje == "Código válido"
 
